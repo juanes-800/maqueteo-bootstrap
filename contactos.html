@@ -19,33 +19,24 @@
         <a href="index.html"><img src="imagenes/logoo.png" alt="Logo de asesorias I&D"></a> <!-- imagen de asesorias I&D-->
     </div>
 
-     <nav class="navegacion">
-
-        <ul class="caja-ul">
-
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
-
-            <li>
-                <a href="cursos.html">Cursos</a>
-            </li>
-
-            <li>
-                <a href="nosotros.html">Nosotros</a>
-            </li>
-
-            <li>
-                <a href="servicio.html">Servicios</a>
-            </li>
-
-            <li>
-                <a href="contactos.html">Contactos</a>
-            </li>
-
-        </ul>
-    </nav>
-
+    <nav class="navbar navbar-expand-lg bg-light navegacion">
+        <div class="container-fluid">
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav caja-ul">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link" href="cursos.html">Cursos</a>
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+              <a class="nav-link" href="servicio.html">Servicios</a>
+              <a class="nav-link" href="contactos.html">Contactos</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
 </header><!-- finaliza  header -->
    
     
@@ -62,8 +53,77 @@
      <!--finaliza seccion-->
      
      <section> <!--inicia section-->
+        <div class="container">
 
-        <div>
+            <form class="row g-3 mt-3">
+                <div class="col-6">
+
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id=" nombre" placeholder="Nombre">
+
+                </div>
+
+                <div class="col-6">
+
+                    <label for="apellido" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id=" apellido" placeholder="Apellidos">
+
+                </div>
+
+                <div class="col-6">
+
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Ingresa tu email">
+
+                </div>
+
+                <div class="col-6">
+
+                    <label for="inputnumber" class="form-label"> Numero</label>
+                    <input type="number" class="form-control" id="inputnumber" placeholder="Escribe tu numero de contacto">
+
+                </div>
+
+                <div class="col-12">
+
+                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddres" placeholder="Dirección">
+
+                </div>
+
+                <div class="col-6">
+
+                    <label for="cityInput" class="form-label">Departamento</label>
+                    <input type="text" class="form-control" id="cityInput" placeholder="Departamento">
+
+                </div>
+
+                <div class="col-3">
+
+                    <label for="cityInput" class="form-label">Municipio</label>
+                    <input type="text" class="form-control" id="cityInput" placeholder="Municipio">
+
+                </div>
+
+                <div class="col-3">
+
+                    <label for="empresa" class="form-label">Empresa</label>
+                    <input type="text" class="form-control" id=" empresa" placeholder=" Nombre de la empresa  ">
+
+                </div>
+
+                <div class="col-12">
+
+                    <button type="submit" class="btn btn-primary">
+                    Enviar
+                </div>
+
+
+            </form>
+            
+        </div>
+
+        <div class="d-flex justify-content-end">
             <p>Celular: 319 741 6825</p><br><!-- En esta parte se realiza un formulario cuando nico nos enseñe hacer un formulario-->
             <p>Gmail: juanealzate800@gmail.com</p><br>
         </div>
@@ -88,7 +148,7 @@
             </ul>
         </nav>
              
-        <div>
+        <div class="d-flex p-2 flex-shrink-1">
             <div>
                 <p>Alcanza tus objetivos de manera correcta con ayuda asesorias alimentaria I&D mas que una asesoria un sello de calidad</p>
             </div>
